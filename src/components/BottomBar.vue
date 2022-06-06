@@ -34,5 +34,9 @@ a {
   padding: 0 rem(15);
   color: #fff;
   text-decoration: none;
+
+  &.router-link-active {
+    background-color: rgba($color-primary, 0.4);
+  }
 }
 </style>
