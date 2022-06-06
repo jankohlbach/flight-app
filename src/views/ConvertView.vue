@@ -21,6 +21,7 @@ const state = reactive({
           state.gasLiter = Number((e.target as HTMLInputElement | null)?.value)
           state.gasWeight = state.gasLiter * 0.72
         }"
+        :unit="'l'"
       />
 
       <div class="icon">
@@ -46,6 +47,7 @@ const state = reactive({
           state.gasWeight = Number((e.target as HTMLInputElement | null)?.value)
           state.gasLiter = state.gasWeight / 0.72
         }"
+        :unit="'kg'"
       />
     </div>
   </div>
