@@ -1,0 +1,10 @@
+@use 'functions.scss' as *;
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: rem(10);
+  padding: 0 rem(15);
+  margin: 0 auto;
+  max-width: rem(650);
+}
