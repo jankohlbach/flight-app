@@ -2,7 +2,7 @@
 defineProps<{
   id: string;
   label: string;
-  value: string;
+  value: number;
   inputHandler: (payload: Event) => void;
   unit: string;
 }>();

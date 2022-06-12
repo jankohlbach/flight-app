@@ -69,7 +69,7 @@ nav {
   bottom: 0;
   left: 0;
   width: 100%;
-  padding: rem(20) 0;
+  padding: rem(15) 0;
   background-color: $color-secondary;
   border-top-left-radius: 100% 50%;
   border-top-right-radius: 100% 50%;
