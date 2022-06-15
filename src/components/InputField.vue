@@ -47,13 +47,18 @@ label {
 input {
   width: 100%;
   padding: rem(15) rem(20);
-  border: 3px solid $color-secondary;
+  border: 3px solid rgba($color-secondary, 0.5);
   border-radius: inherit;
   color: $color-grey;
   font-family: $font-primary;
   font-size: rem(16);
   background-color: transparent;
   outline: none;
+  transition: border-color 0.3s;
+
+  &:focus {
+    border-color: rgba($color-secondary, 1);
+  }
 }
 
 .unit {
