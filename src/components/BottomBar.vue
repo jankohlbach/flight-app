@@ -5,7 +5,7 @@ import { RouterLink } from "vue-router";
 <template>
   <nav>
     <div class="grid">
-      <RouterLink to="/">
+      <RouterLink to="/" aria-label="Massen und Momente berechnen">
         <svg
           width="50"
           height="50"
@@ -23,7 +23,7 @@ import { RouterLink } from "vue-router";
           <circle cx="35.333" cy="39.667" r="1.333" fill="#fff" />
         </svg>
       </RouterLink>
-      <RouterLink to="/convert">
+      <RouterLink to="/convert" aria-label="Liter und Gewicht umrechnen">
         <svg
           width="50"
           height="50"
