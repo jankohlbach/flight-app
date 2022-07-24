@@ -72,7 +72,6 @@ const sumWeights = computed(() => {
 <template>
   <div class="grid">
     <div class="content">
-      <!-- TODO: use watcher and v-model here -->
       <InputGroup
         v-for="inputGroup in state"
         :key="inputGroup.key"

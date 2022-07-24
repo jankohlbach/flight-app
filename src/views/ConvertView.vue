@@ -13,7 +13,6 @@ const state = reactive({
     <div class="content">
       <h1>Umrechung Liter &lt;-&gt; Gewicht</h1>
 
-      <!-- TODO: use watcher and v-model here -->
       <InputField
         :id="'gas-liter'"
         :label="'Liter'"
