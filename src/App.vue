@@ -12,6 +12,7 @@ import BottomBar from "./components/BottomBar.vue";
 </template>
 
 <style lang="scss">
+@use "@/assets/styles/fonts.scss";
 @use "@/assets/styles/base.scss";
 @use "@/assets/styles/grid.scss";
 @use "@/assets/styles/functions.scss" as *;
